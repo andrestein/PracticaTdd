@@ -1,0 +1,39 @@
+{
+  "casos": [
+    {
+      "name": "Primer caso texto muy largo",
+      "input": "Al ver a Garrick, un actor de Inglaterra, la gente que lo aplaudía dijo: \"Eres la más divertida del mundo y la más feliz ...\" El mundo de garrik cambio despues de esto",
+      "output": "El texto debe tener minimo una palabra y maximo 125 caracteres en total"
+    },
+    {
+      "name": "Segundo caso valores alfaNumericos",
+      "input": "123412341324",
+      "output": "123412341324"
+    },
+    {
+      "name": "Tercer caso caracteres especiales",
+      "input": "!!342Ester%%&/Sfas",
+      "output": "El texto debe ser en español"
+    },
+    {
+      "name": "Cuarto caso signo interrogacion",
+      "input": "Hola mundo?",
+      "output": "Привет, мир?"
+    },
+    {
+      "name": "Quito caso texto con caracteres repetidos",
+      "input": "Tengo 20 años!!!",
+      "output": "Мне 20 лет !!!"
+    },
+    {
+      "name": "Sexto caso texto vacio",
+      "input": "",
+      "output": "El texto debe tener minimo una palabra y maximo 125 caracteres en total"
+    },
+    {
+      "name": "Septimo caso texto en ingles",
+      "input": "hello word",
+      "output": "El texto debe ser en español"
+    }
+  ]
+}
